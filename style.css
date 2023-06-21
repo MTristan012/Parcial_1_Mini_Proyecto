@@ -1,0 +1,235 @@
+/* Estilos Generales*/
+.contenedor-principal {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.contenedor_secundario section{
+    margin: auto;
+    width: 10%;
+    display: flex;
+}
+
+.div_ingredients h2, .section_instructions h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.span_bold{
+    font-weight: bold;
+}
+
+/* Estilo: Titulo, Resumen e imagen */
+
+.section_header{
+    margin: auto;
+    width: 61rem;
+}
+
+.section_header h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 1.7rem 0 0.01rem 0;
+}
+
+.section_header div{
+    margin:0;
+    display: flex;
+}
+
+.div_header{
+    margin: 0;
+}
+
+.div_header img{
+    align-self: flex-start;
+    padding: 1.2rem 0.3rem 0 0;
+    width: 1.5%;
+}
+
+.div_header p{
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 37%;
+    font-size: 0.9rem;
+    letter-spacing: none;
+}
+
+.div_img img{
+    margin-top: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    color: #4F4F4F;
+}
+
+/* Estilo: Ingredientes e Informacion */
+
+.section_information {
+    margin: auto;
+    padding-top: 1.5rem;
+    width: 60rem;
+    display: flex;
+    gap: 20%;
+}
+
+.div_ingredients{
+    width: 68%;
+    padding-right: 5%;
+}
+
+.div_ingredientsSub{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #333333;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.div_infoGCC p, .div_infoCheesecake p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #333333;
+    font-size: 1rem;
+    margin: 0.3rem;
+}
+
+.div_box{
+    display: flex;
+}
+
+.div_box div{
+    min-width: 10px;
+    max-height: 10px;
+    border: solid 0.01rem #828282;
+    border-radius: 0.2rem;
+    margin-top: 0.4rem;
+    margin-right: 5px;
+}
+
+.div_checkboxe{
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilo Caja Informacion */
+
+.div_info{
+    margin: 0;
+
+}
+.div_info .div_infoBox{
+    display:grid;
+}
+
+.div_InfoBox{
+    width: 10rem;
+    box-shadow: 0 0 0.3rem .2rem rgba(21, 152, 240, 0.274);
+    line-height: 0.6rem;
+}
+
+.div_InfoBox .div_imgInfo{
+    margin: auto;
+    padding: 0 1rem 0 1rem;
+}
+
+.div_imgInfo{
+    display: flex;
+    gap: 10%;
+    max-height:min-content;
+}
+
+.div_imgInfo img{
+    width: 17%;
+}
+
+p .span_title{
+    font-size: 0.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #bdbdbd;
+    font-weight: lighter;
+}
+
+.span_info{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-weight: 550;
+}
+
+.span_infoOr {
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #f2994a;
+    font-weight: 550;
+}
+
+.div_imgInfo p{
+    line-height: 1rem;
+}
+
+/* Estilo: Instrucciones */
+
+.section_instructions {
+    margin: auto;
+    width: 60rem;
+}
+
+.div_instructions{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.div_orangeBox{
+    display: flex;
+    gap: 10px;
+    margin: 15px 0 15px 0;
+}
+
+.div_number{
+    margin-top: 1rem;
+    min-width: 30px;
+    height: 30px;
+    background-color: #f2994a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.div_instructions p{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    text-align:initial;
+    padding-right: 41%;
+}
+
+.div_box .span_italic {
+    font-style: italic;
+    color: #000000;
+}
+
+/* Estilo: Creditos */
+
+.credits{
+    margin: auto;
+    padding: 3rem 0 0.25rem 0;
+    text-align: center;
+}
+
+.credits p{
+    color: #828282;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9rem;
+}
+
+.me{
+    font-weight: bold;
+    text-decoration: underline 1px;
+}
